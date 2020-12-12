@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: 'Lobster', cursive;  
+  background-color: #ff5a60;
+  font-size: 24px;
+  padding: 30px;
+  width: 100%;
+}
+.test {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.test h2{
+  letter-spacing: 2px;
+}
+
+
+.nav_links {
+  display: flex;
+  width: 40%;
+  height: 30px;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-top: 10px;
+  padding-right: 90px;
+}
+
+.nav_links a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+}
+
+.nav_links a:hover{
+  text-decoration: underline;
+}
+
+#logo {
+  display: inline-flexbox;
+  width: 50px;
+  height: 50px;
+  filter: invert(1);
+}
+
+.header{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: #ff5a60;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  letter-spacing: 5px;
+  text-shadow: whitesmoke;
+}
+
+
+.searchForm {
+  margin: auto;
+  width: 20%;  
+  border: 2px;
+  border-radius: 10px;
+  border-color: #ff5a60;
+  border-style: solid;
+  font-family: 'News Cycle', sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+label{
+ 
+  font-family: 'News Cycle', sans-serif;
+  font-size: small;
+}
+
+.PromoSection{
+  border: 8px;
+  border-radius: 10px;
+  font-family: 'News Cycle', sans-serif;
+  text-align:  center;
+
+}
+.infoSection{
+  border: 8px;
+  border-radius: 10px;
+  font-family: 'News Cycle', sans-serif;
+  text-align:  center;
+}
+
+.infoSection img{
+  border: 2px;
+  border-radius: 10px;
+  border-color:grey;
+  border-style: solid;
+  width: 25%;
+  height:25%;
+}
+
+footer {
+  display:flex;
+  justify-content:space-between;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#ff5a60;
+  color: white;
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+  font-size:x-large;
+}
+
+footer p {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+footer p img {
+  filter: invert(1);
+}
+
+.socialLogos img {
+  width: 40px;
+  height:40px;
+  margin-left: 10px;
+  margin-top: 10px;   
+}
+
+.cardBody{
+  text-align: center;
+}
+.cards{
+  width: 25%;
+  display:inline-block;
+  align-items: center;
+  border-radius:  8px;
+  background-color:  grey;
+  margin: 40px;
+  text-align: center;
+}
+
+.cards1{
+  width: 25%;
+  border-radius:  8px;
+  background-color:  grey;
+  margin: auto;
+}
+
+.cards h1 {
+  font-family: 'Raleway', sans-serif;
+  color: beige;
+}
+
+.title_single h1, .roomPrice_single, .roomLocation_single{
+  font-family: 'Raleway', sans-serif;
+  color: beige;
+  text-align: center;
+}
+.cards:hover{
+  box-shadow: 2px 2px 10px black;
+}
+
+.roomPic img{
+  width :100%;
+  border-top-right-radius:  8px;
+  border-top-left-radius:  8px;
+  height: 300px;
+
+}
+
+.title, .roomPrice, .roomLocation, .checkInOut{
+  text-align: center;
+  padding: 3px;
+}
+
+.roomDesc, .roomLocation {
+  text-align: center;
+  margin: 10px;
+}
+
+.roomDesc p, .checkInOut p, .cardBody{ 
+  font-family: 'Raleway', sans-serif;
+  color: beige;
+}
+
+.regTitle{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+}
+.formBackground{
+  max-width: 550px;
+  border-radius: 10px;
+  width: 100%;
+  background:#ff5a60;
+  box-shadow: 2px 2px 4px black;
+  margin: 20px auto;
+  padding:10px;
+  
+}
+
+.formWrapper{
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  background:#fff;
+  box-shadow: 2px 2px 4px black;
+  margin: 20px auto;
+  padding:30px;
+}
+
+.textForm{
+  margin: auto;
+  text-align: center;
+}
+.inputBday label{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.quote, .addRoom{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 20px;
+}
+
+.submit{
+  text-align: center;
+}
+.formTitle h1{
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+}
+
+.formWrapper .form .user_input{
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.textForm input{
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border-color: grey;
+  border-style: solid;
+}
+
+.textForm input:hover{
+  box-shadow: 2px 2px 4px black;
+}
+
+.submit input{
+  width: 30%;
+  height: 30px;
+  border-radius: 2px;
+  font-family: 'Raleway', sans-serif;
+  font-size: larger;
+  border-color: #ff5a60;
+  border-style: solid;
+  background-color: #ff5a60;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+<% if (admin) { %>
+<div class="quote">
+    <h1 class="dashboardMsg">Hi, <%= fName %> <%= lName %> , Welcome to <%=msg%> the Dashboard</h1>
+    <br>
+    <h1> <a class="addRoom" href="/rooms/new">Add a Room</a> </h1>
+</div>
+<div class="infoSection">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    <img src="/img/lodge.png" alt="Lodge">
+    <img src="/img/cali.jpg" alt="Cali">
+    <img src="/img/enchanted_forest_vibes.jpg" alt="enchanted_forest_vibes"><br>
+    <h2>Interested in seeing what FakeBnb has to offer? Watch the video below!</h2>
+    <video width="500" height="300" controls>
+        <source src="/mp4/AirBnbVideo.mp4" type="video/mp4">
+    </video>
+</div>
+<% } else { %>
+<div class="quote">
+    <h1 class="dashboardMsg">Hi, <%= fName %> <%= lName %> , welcome to the Dashboard</h1>
+    <br>
+    <div class="infoSection">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+        <img src="/img/lodge.png" alt="Lodge">
+        <img src="/img/cali.jpg" alt="Cali">
+        <img src="/img/enchanted_forest_vibes.jpg" alt="enchanted_forest_vibes"><br>
+        <h2>Interested in seeing what FakeBnb has to offer? Watch the video below!</h2>
+        <video width="500" height="300" controls>
+            <source src="/mp4/AirBnbVideo.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+
+
+</div>
+<% } %>

@@ -1,0 +1,26 @@
+<h1 class="quote"><%= msg %></h1>
+
+<div class="cardBody">
+    <% rooms.forEach(room=> { %>
+    <div class="cards">
+        <div class="roomPic">
+            <a href="/rooms/<%= room.id %>">
+                <img height="150" width="150" src="<%= room.roomImagePath %>">
+            </a>
+        </div>
+
+        <div class="title">
+            <h1><%= room.roomTitle %></h1>
+        </div>
+
+        <div class="roomPrice">
+            <p>$<%= room.price %> / night CAD</p>
+        </div>
+
+        <div class="roomLocation">
+            <p><%= room.location %></p>
+        </div>
+    </div>
+
+    <% }) %>
+</div>

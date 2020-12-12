@@ -1,0 +1,16 @@
+<div class="regTitle">
+    <h1>Register Now To Get Started With ExpressBnB</h1>
+</div>
+<form method="POST" action="/users" class="form">
+    <%- include('register_form') %>
+    <div class="submit">
+        <input type="submit" value="Sign up!" class="button">
+    </div>
+    <br>
+</form>
+<br>
+<% if (condition) { %>
+<div class="regTitle">
+    <h1><%= ERROR %></h1>
+</div>
+<% } %>

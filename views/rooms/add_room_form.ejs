@@ -1,0 +1,44 @@
+<!-- partial file, not actually rendered by itself-->
+<link rel="stylesheet" href="stylesheets/styles.css">
+<div class="formBackground">
+    <div class="formWrapper">
+
+        <body>
+            <div class="textForm">
+                <div>
+                    <label>Room Name</label>
+                    <div class="user_input">
+                        <input type="text" name="roomTitle" value="<%= room.roomTitle %>">
+                    </div>
+                </div>
+
+                <div>
+                    <label>Price</label>
+                    <div class="user_input">
+                        <input type="number" name="price" value="<%= room.price %>">
+                    </div>
+                </div>
+
+                <div>
+                    <label>Room Description</label>
+                    <div class="user_input">
+                        <textarea type="text" name="roomDesc" value="<%= room.roomDesc %>"></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <label>Location</label>
+                    <div class="user_input">
+                        <input type="text" name="location" value="<%= room.location %>">
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <label>Cover Image</label>
+                    <input type="file" name="roomImg" class="filePond">
+                </div>
+            </div>
+        </body>
+    </div>
+</div>
+<br>

@@ -1,0 +1,35 @@
+<div class="regTitle">
+    <h1>Sign in to view your account details</h1>
+</div>
+<div class="formBackground">
+    <div class="formWrapper">
+        <div class="formTitle">
+            <h1>Log In</h1>
+        </div>
+
+        <form action="/logins" method="POST" class="form">
+            <div class="textForm">
+                <div class="user_input">
+                    <input type="email" name="email" placeholder="Email" required name>
+                </div>
+                <div class="user_input">
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Sign in!" class="button">
+            </div>
+    </div>
+    </form>
+    <% if (!isFound) { %>
+    <div class="regTitle">
+        <%= ERROR %>
+    </div>
+    <% } %>
+</div>
+<div class="infoSection">
+    <img src="/img/lodge.png" alt="Lodge">
+    <img src="/img/cali.jpg" alt="Cali">
+    <img src="/img/enchanted_forest_vibes.jpg" alt="enchanted_forest_vibes"><br>
+</div>
+<br>
